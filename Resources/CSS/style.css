@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto+Slab:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.image{
+  display: none;
+}
+
+.form-section h1,
+.login-form h1{
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+  font-size: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.form-input{
+  width: 80%;
+  margin: 0 auto;
+}
+
+input{
+  width: 100%;
+  padding: .5rem .6rem;
+  margin: 1rem 0;
+  outline: none;
+  border: none;
+  border-bottom: .1rem solid #ddd;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.gender-section{
+  width: 100%;
+  margin: 1rem 0 0 0;
+}
+
+.date-section{
+  margin: .5rem 0;
+}
+
+select{
+  width: 100%;
+  padding: .5rem .6rem;
+  margin: .3rem 0;
+  outline: none;
+  border: none;
+  border-bottom: .1rem solid #ddd;
+  background: #fff;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.DOB{
+  margin: .4rem 0;
+}
+
+.sign-in{
+  width: 80%;
+  margin: 0 auto 2rem auto;
+}
+
+.sign-in a{
+  font-size: .8rem;
+  text-align: center;
+}
+
+.btn-section{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn{
+  width: 100%;
+  padding: .5rem .6rem;
+  margin: 2rem 0 3rem 0;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  background: #f57359;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.btn:hover{
+  background: #C45C47;
+  transition: all ease-in-out .3s;
+}
+
+@media (min-width: 568px){
+  .form-section{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .btn-section{
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px){
+  .image{
+    display: block;
+    width: 50%;
+    padding: 0 .2rem;
+  }
+
+  .image img{
+    width: 100%;
+    height: 99.5vh;
+  }
+
+  .registration{
+    display: flex;
+  }
+
+  input{
+    width: 49%;
+  }
+
+  select{
+    width: 98%;
+  }
+
+  .gender-section{
+    margin-bottom: 1rem;
+  }
+
+  .DOB_color{
+    display: flex;
+    gap: .5rem;
+    width: 98%;
+  }
+
+  .date-section{
+    width: 50%;
+  }
+
+  .DOB{
+    width: 100%;
+    margin: .2rem 0;
+  }
+
+  .fav-color{
+    margin: .5rem 0;
+    width: 50%;
+  }
+
+  .fav-color input{
+    margin: .2rem 0;
+    width: 100%;
+  }
+
+  .btn-section{
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px){
+  .form-input input,
+  .form-input select{
+    font-size: .9rem;
+  }
+}
+
+
+
+/* Login Page */
+
+.login{
+  width: 100%;
+  height: 100vh;
+  margin: 5rem 0 0 0;
+}
+
+.login-form{
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px){
+  .login{
+    display: flex;
+    margin: 0;
+  }
+
+  .login-form{
+    width: 50%;
+    margin: 5rem 0 0 0;
+  }
+
+  .form-input2{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-input2 input{
+    width: 100%;
+  }
+}
+
+
+/* Login Success Style */
+
+.success-section,
+.verification-section{
+  margin: 10rem 0 0 0;
+}
+
+.success-image,
+.verification-img{
+  width: 70%;
+  margin: 0 auto;
+  height: 40vh;
+}
+
+.success-image img,
+.verification-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.success-msg,
+.verification-msg{
+  text-align: center;
+  font-size: .8rem;
+}
+
+@media (min-width: 568px){
+  .btn-section{
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px){
+  .success-section{
+    margin-top: 6rem;
+  }
+
+  .verification-section{
+    margin-top: 4rem;
+  }
+
+  .success-image,
+  .verification-img{
+    width: 80%;
+    height: 60vh;
+  }
+
+  .btn-section{
+    width: 40%;
+  }
+}
+

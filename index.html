@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Resources/CSS/style.css">
+  <title>Register</title>
+</head>
+<body>
+  <section class="registration">
+    <div class="form-section">
+      <h1>Sign Up</h1>
+
+      <form action="./Resources/verify/verify.html">
+        <div class="form-input">
+          <input type="text" placeholder="First Name" required>
+          <input type="text" placeholder="Last Name" required>
+        </div>
+
+        <div class="form-input">
+          <input type="email" placeholder="E-mail" required>
+          <input type="tel" placeholder="Phone Number" required>
+        </div>
+
+        <div class="form-input">
+          <div class="gender-section">
+            <h5 for="gender">Gender</h5>
+            <select name="gender" id="gender" required>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+
+          <div class="DOB_color">
+            <div class="date-section">
+              <h5 for="date">Date of Birth</h5>
+              <input class="DOB" type="date" id="date" required>
+            </div>
+  
+            <div class="fav-color">
+              <h5 for="">Favourite Color</h5>
+              <input type="text" placeholder="Eg. Yellow">
+            </div>
+          </div>
+
+          <div class="btn-section">
+            <button class="btn" type="submit">Register</button>
+          </div>
+        </div>
+
+        <div class="sign-in">
+          <a href="./login.html">
+            <h5>Already have an account? Sign-in</h5>
+          </a>
+        </div>
+      </form>
+    </div>
+
+    <div class="image">
+      <img src="./Resources/images/Register.svg" alt="">
+    </div>
+
+  </section>
+</body>
+</html>
